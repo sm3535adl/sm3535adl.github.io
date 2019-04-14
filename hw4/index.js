@@ -8,13 +8,13 @@ const HOSTED_URLS = {
 
 const examples = {
   'example1':
-      'Alice was beginning to get very tired of sitting by her sister on the bank.',
+      'To speak, she was sure would be to betray a most unreasonable degree of happiness.',
   'example2':
-      'Buda-Pesth seems a wonderful place.',
+      'Thundering with the butts of three clubbed handspikes on the forecastle deck, Daggoo roused the sleepers with such judgment claps that they seemed to exhale from the scuttle, so instantaneously did they appear with their clothes in their hands.',
   'example3':
-      'Scepticism was as much the result of knowledge, as knowledge is of scepticism.',   
+      'This face of a healthy honest boy is the programme of all good.',   
   'example4':
-      'I went straight home, pelting down the road as fast as I could, not even looking where I was going.'
+      'For some minutes the whole court was in confusion, getting the Dormouse turned out, and, by the time they had settled down again, the cook had disappeared.'
 };
 
 function status(statusText) {

@@ -10,9 +10,9 @@ const examples = {
   'example1':
       'To speak, she was sure would be to betray a most unreasonable degree of happiness.',
   'example2':
-      'Thundering with the butts of three clubbed handspikes on the forecastle deck, Daggoo roused the sleepers with such judgment claps that they seemed to exhale from the scuttle, so instantaneously did they appear with their clothes in their hands.',
+      '“Didn’t want to try to: ain’t one limb enough? What should I do without this other arm? And I’m thinking Moby Dick doesn’t bite so much as he swallows.”',
   'example3':
-      'This face of a healthy honest boy is the programme of all good.',   
+      'And who art thou sad shade?',   
   'example4':
       'For some minutes the whole court was in confusion, getting the Dormouse turned out, and, by the time they had settled down again, the cook had disappeared.'
 };

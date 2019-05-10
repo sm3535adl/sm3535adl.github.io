@@ -48,6 +48,7 @@ function doPredict(predict) {
   const textField = document.getElementById('text-entry');
   const result = predict(textField.value);
   color_val = "(" + result.score[0] + ", " + result.score[1] + ", " + result.score[2] + ")"
+  console.log(color_val)
   var block = document.getElementById('block');
   block.style.background = "rgb" + color_val;
 }

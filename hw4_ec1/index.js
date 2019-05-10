@@ -135,10 +135,11 @@ class Classifier {
     const predictOut = this.model.predict(input);
     //console.log(predictOut.dataSync());
     const score = predictOut.dataSync();//[0];
+    val = score.map(function(x) { return Math.round(x * 255); });
     predictOut.dispose();
     const endMs = performance.now();
 
-    return {score: score, elapsed: (endMs - beginMs)};
+    return {score: val, elapsed: (endMs - beginMs)};
   }
 };
 

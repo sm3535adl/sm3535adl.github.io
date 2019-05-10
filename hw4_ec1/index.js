@@ -121,9 +121,10 @@ class Classifier {
         text.trim().toLowerCase().replace(/(\.|\,|\!)/g, '').split(' ');
     // Look up word indices.
     const inputBuffer = tf.buffer([1, this.maxLen], 'float32');
+    const offset = Math.max(0, this.maxLen - inputText.length)
     for (let i = 0; i < inputText.length; ++i) {
       const word = inputText[i];
-      inputBuffer.set(this.wordIndex[word], 0, i);
+      inputBuffer.set(this.wordIndex[word], 0, offset+i);
       //console.log(word, this.wordIndex[word], inputBuffer);
     }
     const input = inputBuffer.toTensor();
